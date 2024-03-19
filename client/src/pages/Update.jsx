@@ -3,8 +3,9 @@ import axios from 'axios'
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Update = () => {
+
     const [book,setBook] = useState({
-        title:"",
+        title: "",
         desc:"",
         price:null,
         cover:"",
